@@ -15,7 +15,7 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
         >
           <p className="uppercase tracking-[8px] text-indigo-400 mb-4">
-            Computer Engineer • Front-End Developer • Technical Trainer
+            Front-End Developer • Technical Trainer • Creative Media Specialist
           </p>
 
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const skillGroups = [
   {
-    title: "Frontend",
+    title: "Frontend Development",
     skills: [
       "HTML5",
       "CSS3",
@@ -18,29 +18,29 @@ const skillGroups = [
       "PHP",
       "MySQL",
       "Firebase",
-      "REST APIs",
       "Google Apps Script",
-    ],
-  },
-  {
-    title: "Tools",
-    skills: [
-      "Git",
-      "GitHub",
-      "VS Code",
-      "Figma",
       "XAMPP",
-      "Vite",
     ],
   },
   {
-    title: "Teaching & Leadership",
+    title: "Creative Media",
     skills: [
-      "Curriculum Development",
+      "Graphic Design",
+      "Video Editing",
+      "Audio Production",
+      "Photography",
+      "Visual Layout",
+      "Content Creation",
+    ],
+  },
+  {
+    title: "Teaching & Training",
+    skills: [
       "Technical Training",
-      "Capstone Advising",
+      "Curriculum Development",
+      "Capstone Mentoring",
       "Public Speaking",
-      "Project Mentoring",
+      "Student Assessment",
     ],
   },
 ];
@@ -54,14 +54,20 @@ export default function Skills() {
         transition={{ duration: 0.8 }}
       >
         <p className="uppercase tracking-[6px] text-indigo-400 mb-4">
-          Skills & Technologies
+          Skills & Capabilities
         </p>
 
-        <h2 className="text-5xl font-bold mb-16">
-          Building with
+        <h2 className="text-5xl font-bold mb-8">
+          Development,
           <br />
-          Modern Technologies
+          Design & Training
         </h2>
+
+        <p className="text-slate-400 text-lg leading-8 max-w-3xl mb-16">
+          My skill set combines software development, creative media, and
+          education. This allows me to build user-focused digital products,
+          create visual content, and communicate technical ideas clearly.
+        </p>
 
         <div className="grid md:grid-cols-2 gap-8">
           {skillGroups.map((group) => (
